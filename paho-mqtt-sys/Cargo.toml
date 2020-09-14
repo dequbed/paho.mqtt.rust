@@ -1,6 +1,6 @@
 [package]
 name = "paho-mqtt-sys"
-version = "0.4.0"
+version = "0.4.1"
 authors = ["Frank Pagliughi <fpagliughi@mindspring.com>"]
 homepage = "https://github.com/eclipse/paho.mqtt.rust"
 repository = "https://github.com/eclipse/paho.mqtt.rust"
@@ -24,7 +24,7 @@ build_bindgen = ["bindgen"]
 ssl = []
 
 [build-dependencies]
-bindgen = { version = "0.52", optional = true }
+bindgen = { version = "0.55", optional = true }
 cmake = { version = "0.1", optional = true }
 
 
